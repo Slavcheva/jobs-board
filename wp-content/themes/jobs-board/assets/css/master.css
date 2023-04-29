@@ -28,6 +28,12 @@ main {
   display: block;
 }
 
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+
 /* Grouping content
    ========================================================================== */
 /**
@@ -398,6 +404,13 @@ a {
   margin-bottom: 0.25em;
 }
 .job-card .job-title a {
+  color: black;
+}
+.job-title-single {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+.job-title-single a {
   color: black;
 }
 .job-card .job-details {

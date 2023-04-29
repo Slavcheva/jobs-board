@@ -12,3 +12,11 @@ function job_assets() {
 }
 
 add_action( 'wp_enqueue_scripts', 'job_assets' );
+
+function job_body_class( $classes ) {
+	$classes[] = 'body-class';
+
+	return $classes;
+}
+
+add_filter( 'body_class', 'job_body_class' );

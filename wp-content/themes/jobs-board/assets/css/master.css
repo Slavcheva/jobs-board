@@ -28,15 +28,6 @@ main {
   display: block;
 }
 
-/**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
- */
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
-
 /* Grouping content
    ========================================================================== */
 /**
@@ -372,6 +363,12 @@ a {
 .site-wrapper {
   max-width: 58em;
   margin: 0 auto;
+}
+
+.site-title {
+  font-size: 2em;
+  margin: 0.67em 0;
+  font-weight: bold;
 }
 
 .jobs-listing {
